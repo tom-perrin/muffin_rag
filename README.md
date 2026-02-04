@@ -45,6 +45,10 @@ python app.py
 
 **5. Open the website:** Go to http://127.0.0.1:5000/ in your browser and enjoy !
 
+<p align='center'>
+  <img src='./assets/preview.png' width='600'>
+</p>
+
 
 ### 🛠️ Tech Stack
 - **LLM:** Llama 3.3 (70B) via [Groq](https://groq.com/).

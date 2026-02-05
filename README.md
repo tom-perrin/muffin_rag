@@ -10,7 +10,7 @@ The database used for recipes can be found on **Kaggle**: [Recipes Database](htt
 
 When using a new .csv file for the database, place it in a data/ folder and run `create_database.py`
 
-All muffin recipes will be tokenized when running the app for the first time. This might take some time, feel free to reduce the amount of recipes if needed !
+All muffin recipes will be tokenized when running `main.py` or `app.py` for the first time. This might take some time, feel free to reduce the amount of recipes if needed !
 
 Here is the purpose of each Python script in this repo :
 - `create_database.py`: Creates your own database, filtering only muffin recipes.

@@ -5,7 +5,7 @@ from config_fr import get_or_create_collection, generate_answer, EMBEDDING_MODEL
 
 app = Flask(__name__)
 
-# Chargement du cerveau (une seule fois au démarrage)
+# Chargement du LLM et de la base de données
 df = pd.read_csv('./data/muffin_dataset.csv')
 db = get_or_create_collection(df, db_path='./chromadb_full')
 model_embed = SentenceTransformer(EMBEDDING_MODEL_NAME)
